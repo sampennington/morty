@@ -1,0 +1,13 @@
+.env
+node_modules/
+dist/
+*.log
+.DS_Store
+morty_data*.json
+morty_data*.csv
+purge_*.json
+purge_*.csv
+cob_planet_data.json
+cronenberg_planet_data.json
+all_planets_data.json
+*.png

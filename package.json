@@ -1,0 +1,45 @@
+{
+  "name": "morty-express-challenge",
+  "version": "1.0.0",
+  "description": "Rick and Morty API Challenge - Save the Morties!",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "ts-node src/index.ts",
+    "optimized": "ts-node src/optimized-strategy.ts",
+    "adaptive": "ts-node src/adaptive-wave-strategy.ts",
+    "predict": "ts-node src/wave-prediction-strategy.ts",
+    "empirical": "ts-node src/empirical-strategy.ts",
+    "hot-hand": "ts-node src/hot-hand-strategy.ts",
+    "ultimate": "ts-node src/ultimate-strategy.ts",
+    "test-purge": "ts-node src/test-purge-only.ts",
+    "analyze-purge": "ts-node src/analyze-purge.ts",
+    "frequency": "ts-node src/frequency-analysis.ts",
+    "massive-collect": "ts-node src/massive-data-collection.ts",
+    "deep-analyze": "ts-node src/deep-pattern-analysis.ts",
+    "collect-all-planets": "ts-node src/collect-all-planets.ts",
+    "collect-cob-cron": "ts-node src/collect-cob-cronenberg.ts",
+    "analyze-all-planets": "ts-node src/analyze-all-planets.ts",
+    "granular": "ts-node src/granular-analysis.ts",
+    "analyze-slow": "ts-node src/analyze-slow-cycles.ts",
+    "history": "ts-node src/history-analysis.ts",
+    "visualize": "python3 visualize.py",
+    "visualize-granular": "python3 visualize_granular.py",
+    "request-token": "ts-node src/request-token.ts",
+    "collect-data": "ts-node src/collect-data.ts",
+    "analyze": "ts-node src/analyze-data.ts"
+  },
+  "keywords": ["rick-and-morty", "api-challenge"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.6.0",
+    "dotenv": "^16.3.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.0",
+    "ts-node": "^10.9.0",
+    "typescript": "^5.3.0"
+  }
+}
