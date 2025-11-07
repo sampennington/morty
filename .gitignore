@@ -10,4 +10,3 @@ purge_*.csv
 cob_planet_data.json
 cronenberg_planet_data.json
 all_planets_data.json
-*.png
